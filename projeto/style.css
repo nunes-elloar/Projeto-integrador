@@ -1,5 +1,6 @@
 body {
     display: flex;
+    font-family: Arial, sans-serif;
     margin: 0;
     background-color: #fff9d2;
     width: 100vw;
@@ -147,3 +148,128 @@ a{
     height: 4vh;
     font-size: 25px;
 }
+.erro{
+    border: 2px solid red;
+}
+
+
+/* ENDERECO 1 */
+
+.barraEndereco{
+    background-color: orange;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    column-gap: 50px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+.imgEndereco1, .imgEndereco2, .imgEndereco3{
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;
+}
+
+.imgEndereco3{
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;
+    position: absolute;
+    left: 970px; 
+    top: 17px;
+}
+#pesquisaEnd{
+    background-color: #fff9d2;
+    color: #f69900;
+    border-radius:50px ;
+    padding-left: 50px;
+    height: 40px;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.imgEndereco1{
+    width: 50px;
+    height: 50px;
+    border-radius: 400px;
+    position: absolute;
+    left: 20px; 
+    top: 17px;
+}
+.pagEndereco1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffdd7f;
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    border-radius: 10px;
+    top: 200px;
+    left: 500px;
+    
+}
+.pagEndereco2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #F9B945;
+    width: 21,5vw;
+    height: 50vh;
+    position: absolute;
+    border-radius: 10px;
+    
+    
+}
+.h1End{
+    background-color: transparent;
+    color: black;
+    border-radius: 0px;
+    border: 0px solid;
+    margin: 0px;
+    left: 50px;
+    font-size: 20px;
+    top: 10px;
+}
+.enviarEnd{
+    border: 3px solid orange;
+    border-radius: 5px;
+    width: 100px;
+    display: block;
+    position: relative;
+    left: 80px;
+}
+
+/* ENDERECO 2 */
+.buttonEnd{
+    background-color: orange;
+    border-radius: 5px;
+    border: 5px solid orange;
+    border-radius: 5px;
+    width: 100px;
+    display: block;
+    position: relative;
+    left: 80px;
+}
+.pEnd{
+    position: relative;
+    left: 30px;
+}
+.h1End2{
+    left: 45px;
+    top: 10px;
+    background-color: transparent;
+    color: black;
+    border-radius: 0px;
+    border: 0px solid;
+    margin: 0px;
+    font-size: 20px;
+}
+
+
+
