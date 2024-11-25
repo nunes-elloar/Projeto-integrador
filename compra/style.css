@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9d2;
+}
+
+
+.cabecario {
+    background-color: #f69900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+
+.navbar {
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.pesquisa {
+    background-color: #fff9d2;
+    color: #f69900;
+    border-radius: 50px;
+    padding-left: 300px;
+    justify-content: center;
+
+}
+
+.pesquisa h3 {
+    position: relative;
+    right: 150px;
+}
+
+.container {
+    background-color: rgba(246, 153, 0, 0.55);
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.logoCompra {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.logoPerfil {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    background-color: #fff9d2;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+.item img {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.item-produto h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #f69900;
+}
+
+.item-produto p {
+    margin: 5px 0;
+    color: #000;
+}
+
+.btn-adicionar {
+    background-color: #f69900;
+    color: white;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    font-size: 16px;
+    
+
+}
+
+.total {
+    text-align: right;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-pagar {
+    background-color: #f69900;
+    color: black;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 500px;
+    padding-left: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.paragrafo-pagar{
+   margin-right: 100px; 
+   font-weight: bold;
+   font-size: 15px;
+}
+
+.pagar{
+    background-color: #f69900;
+    width: 500px;
+    height: 500px;
+    font-size: 16px;
+}
+
