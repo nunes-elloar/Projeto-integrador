@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff9d2;
+}
+
+
+.cabecario {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    column-gap: 50px;
+}
+
+
+
+.navbar {
+    padding:10px ;
+    height: 70px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.pesquisa {
+    background-color: #fff9d2;
+    color: #f69900;
+    border-radius:50px ;
+    padding-left: 300px;
+    height: 40px;
+    justify-content: center;
+
+}
+
+.pesquisa h3 {
+    position: absolute;
+    left: 280px;
+   top: 12px;
+   font-size: 20px;
+}
+.perfil1{
+    position: relative;
+    left: 60px;
+}
+
+.container {
+    background-color: rgba(246, 153, 0, 0.55);
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 400px;
+    position: absolute;
+    left: 20px; 
+    top: 10px;
+}
+
+.logoCompra {
+    width: 50px;
+    height: 50px;
+    border-radius: 150%;
+    position: relative;
+    top: 10px;
+}
+
+.logoPerfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;
+    position: absolute;
+    left: 970px; 
+    top: 17px;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    background-color: #fff9d2;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+.item img {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.item-produto h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #f69900;
+}
+
+.item-produto p {
+    margin: 5px 0;
+    color: #000;
+}
+
+.btn-adicionar {
+    background-color: #f69900;
+    color: white;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    font-size: 16px;
+    
+
+}
+
+.total {
+    text-align: right;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-pagar {
+    background-color: #f69900;
+    color: black;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 500px;
+    padding-left: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.paragrafo-pagar{
+   margin-right: 100px; 
+   font-weight: bold;
+   font-size: 15px;
+}
+
+.pagar{
+    background-color: #f69900;
+    width: 250px;
+    height: 250px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 480px;
+    top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.escolhaPg{
+    position: absolute;
+    left: 30px;
+}

@@ -271,5 +271,80 @@ a{
     font-size: 20px;
 }
 
+.pesquisa{
+    background-color: #fff9d2;
+    color: #f69900;
+    border-radius:50px ;
+    padding-left: 300px;
+    height: 40px;
+    justify-content: center;
 
+}
+
+.pesquisa h3{
+    position: absolute;
+    left: 250px;
+   top: 12px;
+   font-size: 20px;
+}
+
+
+
+
+
+/* INÍCIO */
+
+.imagens{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+.imgInicio{
+    width: 150px;
+    height: 150px;
+}
+.buttonI{
+    background-color: #f69900;
+    border-radius: 5px;
+    border: 2px solid #f69900;
+}
+.imagem1{
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 180px;
+}
+.imagem2{
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+    left: 180px;
+}
+.imagem3{
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 420px;
+    left: 180px;
+}
+.imagem4{
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 600px;
+    left: 180px;
+}
+.imagem5{
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 780px;
+    left: 180px;
+}
 

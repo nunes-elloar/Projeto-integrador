@@ -92,7 +92,7 @@ select{
 
 .pesquisa h3{
     position: absolute;
-    left: 300px;
+    left: 280px;
    top: 12px;
    font-size: 20px;
 }
@@ -121,4 +121,6 @@ select{
     position: absolute;
     left: 970px; 
     top: 17px;
+    column-gap: 20px;
 }
+
